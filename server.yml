@@ -1,0 +1,16 @@
+server:
+  type: simple
+  applicationContextPath: /
+  adminContextPath: /admin
+  connector:
+    type: http
+    port: 8080
+
+#dataSourceFactory:
+#  driverClass: org.mariadb.jdbc.Driver
+#  user: ss_user
+#  url: url
+#  validationQuery: "SELECT 1"
+#  validationQueryTimeout: 3s
+#  initialSize: 5
+#  minSize: 5
